@@ -14,3 +14,4 @@ RUN echo '@testing http://nl.alpinelinux.org/alpine/edge/testing' >> /etc/apk/re
     && cd doconce \
     && pypy setup.py install 
 
+ENTRYPOINT ["/usr/local/bin/doconce"]
