@@ -6,6 +6,7 @@ RUN echo '@testing http://nl.alpinelinux.org/alpine/edge/testing' >> /etc/apk/re
     && pip install preprocess \
     && pip install Mako \
     && pip install sphinx --upgrade \
+    && pip install ipython \
     && pip install -e git+https://github.com/ryan-roemer/sphinx-bootstrap-theme#egg=sphinx-bootstrap-theme \
     && pip install -e git+https://github.com/shkumagai/sphinxjp.themes.impressjs#egg=sphinxjp.themes.impressjs \
     && pip install -e git+https://github.com/kriskda/sphinx-sagecell#egg=sphinx-sagecell \
